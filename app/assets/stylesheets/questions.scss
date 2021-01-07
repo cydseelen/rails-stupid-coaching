@@ -1,0 +1,62 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$linkblue: #106ebe;
+$titleblack: #2c2f33;
+$paleyellow: #FFFFE0;
+
+h1 {
+  color: $titleblack;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 18px;
+  color: $titleblack;
+  font-family: 'Roboto', sans-serif;
+}
+
+  h3 {
+  font-weight: 300;
+  font-size: 14px;
+  font-style: italic;
+  color: $titleblack;
+  font-family: 'Roboto', sans-serif;
+  background-color: $paleyellow;
+  height: 30px;
+  padding: 10px 10px;
+  width: 500px;
+}
+  h4 {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  }
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  padding-top: none;
+}
+
+a {
+  color: $linkblue;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  width: 400px;
+  height: 25px;
+}
+
+.ask_button {
+  height: 31px;
+  color: white;
+  background-color: $linkblue;
+  border-radius: 4px;
+  border: none;
+}

@@ -1,5 +1,6 @@
-<h1>Answer page. </h1>
-<% @input %>
-<%= @answer %>
-<br>
-<%= link_to "Ask another question", ask_path%>
+<h1>Stupid Coaching</h1>
+<h2><%= @input %></h2>
+<h3>-You</h3>
+<h4><%= @answer %></h4>
+<h3>-Your coach</h3>
+<%= link_to "Ask a new question", ask_path%>
