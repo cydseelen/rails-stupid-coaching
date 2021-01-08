@@ -4,35 +4,63 @@
 $linkblue: #106ebe;
 $titleblack: #2c2f33;
 $paleyellow: #FFFFE0;
+$bordergrey: #ECECEC;
 
 h1 {
   color: $titleblack;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  font-size: 34px;
 }
 
-h2 {
-  font-weight: 300;
-  font-size: 18px;
-  color: $titleblack;
+body {
+  padding-left: 25px;
   font-family: 'Roboto', sans-serif;
-}
-
-  h3 {
   font-weight: 300;
   font-size: 14px;
-  font-style: italic;
-  color: $titleblack;
-  font-family: 'Roboto', sans-serif;
-  background-color: $paleyellow;
-  height: 30px;
-  padding: 10px 10px;
-  width: 500px;
 }
-  h4 {
-  font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+
+.question {
+  color: $titleblack;
+  width: 625px;
+  height: 100px;
+  border-left: 7px solid $bordergrey;
+  padding-left: 20px;
+  padding-top: 10px;
+
+  h2 {
+    font-weight: 300;
   }
+
+  h3 {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+  }
+}
+
+.answer {
+  // font-weight: 300;
+  // font-size: 14px;
+  color: $titleblack;
+  background-color: $paleyellow;
+  width: 625px;
+  height: 100px;
+  border-left: 7px solid $bordergrey;
+  padding-left: 20px;
+  padding-top: 10px;
+
+  h2 {
+    font-weight: 400;
+  }
+
+  h3 {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+}
 
 p {
   font-size: 14px;
@@ -41,11 +69,14 @@ p {
   padding-top: none;
 }
 
+div {
+  padding-top: 10px;
+}
+
 a {
   color: $linkblue;
   text-decoration: none;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 .box {
